@@ -1,0 +1,389 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 1440px; 
+    margin:0 auto;
+}
+    /* Шапка сайта */
+.site-header {
+    position: relative;
+    background-color: #fff;
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+    width: 204px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 80px;
+    margin-top: 29px;
+    margin-bottom: 28px;
+}
+
+.link {
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 80px 0 46px;
+    margin-left: auto;
+}
+.link:hover {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#home {
+    width: 51px;
+    height: 36px;
+}
+#story{
+    width: 57px;
+    height: 36px;
+}
+#blog{
+    width:47px;
+    height:36px;
+}
+#subscribe{
+    width: 99px;
+    height: 36px;
+}
+
+    /* Основная часть */
+.main {
+display: flex;
+flex-direction: column;
+}
+
+    /* 1 Блок */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 622px;
+    z-index: -1;
+    background-image: url(/images/background.jpg);
+   /* background-repeat:no-repeat;
+    background-position:  center;
+    background-attachment:fixed;
+    background-size: 70% ; 
+    */
+    background-attachment:scroll;
+    background-size: cover;
+    background-position: 50% 78%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 0px;
+    
+}
+
+
+.logo_home {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89.92px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    letter-spacing: 2.473px;
+}
+.home span {
+    width: 80px;
+    height: 10px;
+    background-color: #817070;
+}
+
+    /* 2 Блок */
+.story {
+    margin-top: 0px;
+    height: 632px; 
+    background-color:#FFFFFF ;   
+}
+.story_title {
+    width: 91px;
+    margin-left:674px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.story_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.story_img {
+    margin-left: 80px;
+    float:left
+}
+.story_text {
+    font-size: 18.5px;
+    line-height: 29.64px;
+    width: 597px;
+    height: 180px;
+    margin-left: 40px;
+    margin-top: 100px;
+    clear: left
+}
+/* 3 Блок */
+.blog {
+    height: 711px;
+    background-color:#EFEFEF ;
+}
+
+.blog_title {
+    margin-top: 60px;
+    margin-left: 682px;
+    width: 76px;
+    height: 53px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+
+
+.blog_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog_element_title{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    color: #000000;
+    text-transform: capitalize
+}
+.blog_element_title:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.blog_img{
+    object-fit: cover;
+    display:block;
+    margin:auto;
+}
+
+.blog_text{
+text-align: left;
+width: 325px;
+height: 108px;
+margin-top: 24px;
+margin-bottom: 46px;
+margin-left: 20px;
+margin-right: 20px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 17.5px;
+line-height: 27px;
+color: #000000;
+
+}
+
+.blog_1{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 474px;
+    margin-right: 70px;
+    background-color:#FFFFFF ;
+}
+
+.blog_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 365px;
+    height: 474px;
+    background-color:#FFFFFF ;
+}
+
+.blog_3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    width: 365px;
+    height: 474px;
+    background-color:#FFFFFF ;
+}
+
+/* 3 Блок */
+.contact_container{
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #817070;
+    
+}
+.contact_title{
+    width: 161px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 28px;
+    cursor: default;
+}
+
+.email{
+    width: 300px;
+    height: 55px;
+    background: #817070;
+    border: 3px solid #fff;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 15px;
+    margin-bottom: 28px;
+}
+
+.email::placeholder {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+    width: 129px;
+    height: 55px;
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #817070;
+    cursor: pointer;
+    opacity: 0.9;
+    padding: 0%;
+}
+.button:hover {
+    opacity: 1;
+}
+/* Подвал */
+footer{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    background-color: #ffffff;
+}
+
+.footer_text {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 14px;
+    margin-top: 29px;
+}
+/*main
+
+.site-main {
+    display: flex;
+    flex-direction: column;
+}
+.block1 {
+    width: 1440px;
+    height: 622px;
+    border: 1px solid black;
+    background-image: url(/images/background.jpg)  1440px 622px no-repeat;
+
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 632px;
+    background-color: #FFFFFF;
+
+}
+.story.text{
+
+}
+.story.img {
+    float: left;
+}
+.block3{
+    width: 1440px;
+    height: 711px;
+    background-color:#EFEFEF ;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.horizontal-line{
+color: #000000;
+width: 80px;
+height: 10px;
+}
+*/ 
