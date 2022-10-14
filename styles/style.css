@@ -23,9 +23,11 @@ body {
 }
 
 .logo{
+    width: 204px;
+    height: 53px;
     font-family: 'Oswald';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 53px;
     text-align: center;
