@@ -84,7 +84,7 @@ flex-direction: column;
     align-items:center;
     height: 622px;
     z-index: -1;
-    background-image: url(coffe/images/background.jpg);
+    background-image: url(https://raw.githubusercontent.com/fraltnn/coffe/main/images/background.jpg);
    /* background-repeat:no-repeat;
     background-position:  center;
     background-attachment:fixed;
