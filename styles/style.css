@@ -38,8 +38,11 @@ body {
     margin-left: 80px;
     margin-top: 29px;
     margin-bottom: 28px;
+    text-decoration: none;
 }
-
+.logo:hover {
+    color: #817070;
+}
 .link {
    
     font-style: normal;
