@@ -268,31 +268,30 @@ color: #000000;
 }
 
 /* 3 Блок */
-.contact_container{
+.contact{
+    margin-top: 0%;
+    margin-bottom: 0%;
     height: 337px;
+    background: #817070;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #817070;
-    
 }
-.contact_title{
-    width: 161px;
-    font-family: 'Oswald';
-    font-style: normal;
+#contact_id {
+    width: 129px;
+    height: 55px;
+}
+.contact_header{
     font-weight: 500;
     font-size: 36px;
     line-height: 53px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 60px;
     margin-bottom: 28px;
-    cursor: default;
 }
-
-.email{
+.email_input{
     width: 300px;
     height: 55px;
     background: #817070;
@@ -303,19 +302,21 @@ color: #000000;
     font-weight: 300;
     text-align: center;
     color: #fff;
-    padding: 0 15px;
     margin-bottom: 28px;
-}
+    padding: 0%;
 
-.email::placeholder {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+}
+.email_input::placeholder{
     font-weight: 300;
-    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
     text-align: center;
+    color: #FFFFFF;
+
+
 }
 
-.button {
+.submit_button{
     width: 129px;
     height: 55px;
     background-color: #fff;
@@ -329,8 +330,9 @@ color: #000000;
     cursor: pointer;
     opacity: 0.9;
     padding: 0%;
+    margin-bottom: 58px;
 }
-.button:hover {
+.submit_button:hover {
     opacity: 1;
 }
 /* Подвал */
